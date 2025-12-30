@@ -1,0 +1,16 @@
+# Dependências instaladas localmente
+node_modules/
+
+# Logs do V8 profiler (node --prof)
+isolate-*-v8.log
+isolate-*.log
+
+# Relatório processado do profiler
+prof.txt
+
+# Logs genéricos
+*.log
+
+# Artefatos do sistema
+.DS_Store
+Thumbs.db

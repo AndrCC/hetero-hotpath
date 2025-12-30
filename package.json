@@ -1,0 +1,24 @@
+{
+  "name": "hetero-hotpah-nodejs",
+  "version": "1.0.0",
+  "description": "Benchmark e profiling em Node.js para demonstrar regressão de performance quando o workload muda de homogêneo para heterogêneo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bench": "node src/runner.js",
+    "prof": "node --prof src/runner.js",
+    "prof:process": "node --prof-process isolate-*.log > prof.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrCC/hetero-hotpath.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AndrCC/hetero-hotpath/issues"
+  },
+  "homepage": "https://github.com/AndrCC/hetero-hotpath#readme"
+}
